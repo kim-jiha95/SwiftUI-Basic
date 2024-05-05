@@ -8,11 +8,25 @@
 import SwiftUI
 
 struct PlayerView: View {
+    let episode: Episode
+    @State private var isPlaying: Bool = false
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(spacing: 20) {
+            Text(episode.title)
+                .font(.largeTitle)
+            Text(episode.showTitle)
+                .font(.title3)
+                .foregroundColor(.gray)
+            
+            PlayButton(isPlaying: $isPlaying)
+            PlayingStatusView(isPlaying: $isPlaying)
+        }
     }
 }
 
-#Preview {
-    PlayerView()
+struct PlayerView_Previews: PreviewProvider {
+    static var previews: some View {
+        PlayerView(episode: Episode.list[0])
+    }
 }

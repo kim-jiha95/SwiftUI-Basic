@@ -5,14 +5,17 @@
 //  Created by Jihaha kim on 2024/05/05.
 //
 
-import SwiftUI
+import Foundation
 
-struct Episode: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
+struct Episode {
+    let title: String
+    let showTitle: String
+    let duration: TimeInterval
 }
 
-#Preview {
-    Episode()
+extension Episode {
+    static let list: [Episode] = [
+        Episode(title: "Amatriciana", showTitle: "Cafe Macs Radio", duration: 300),
+        Episode(title: "VC for startup", showTitle: "a16z Radio", duration: 500),
+    ]
 }

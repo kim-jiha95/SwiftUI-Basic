@@ -8,11 +8,18 @@
 import SwiftUI
 
 struct PlayingStatusView: View {
+    
+    @Binding var isPlaying: Bool
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Image(systemName: isPlaying ? "sun.max.fill" : "sun.max")
+            .resizable()
+            .renderingMode(.original)
+            .aspectRatio(contentMode: .fit)
+            .frame(width: 80, height: 80)
     }
 }
 
-#Preview {
-    PlayingStatusView()
-}
+//#Preview {
+//    PlayingStatusView()
+//}
