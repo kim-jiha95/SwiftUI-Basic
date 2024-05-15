@@ -17,6 +17,7 @@
 		9F7CAA012BE351F60062805E /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7CAA002BE351F60062805E /* TextView.swift */; };
 		9F7CAA032BE3727F0062805E /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7CAA022BE3727F0062805E /* ButtonView.swift */; };
 		9F7CAA052BE372BC0062805E /* ImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7CAA042BE372BC0062805E /* ImageView.swift */; };
+		9F7D74C12BF4FEAD00CDE966 /* SymbolRollerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7D74C02BF4FEAD00CDE966 /* SymbolRollerView.swift */; };
 		9FE588922BE7C66B000CB39F /* PlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE588912BE7C66B000CB39F /* PlayerView.swift */; };
 		9FE588942BE7C696000CB39F /* Episode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE588932BE7C696000CB39F /* Episode.swift */; };
 		9FE588962BE7C6B8000CB39F /* PlayButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9FE588952BE7C6B8000CB39F /* PlayButton.swift */; };
@@ -54,6 +55,7 @@
 		9F7CAA002BE351F60062805E /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		9F7CAA022BE3727F0062805E /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
 		9F7CAA042BE372BC0062805E /* ImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageView.swift; sourceTree = "<group>"; };
+		9F7D74C02BF4FEAD00CDE966 /* SymbolRollerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SymbolRollerView.swift; sourceTree = "<group>"; };
 		9FE588912BE7C66B000CB39F /* PlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayerView.swift; sourceTree = "<group>"; };
 		9FE588932BE7C696000CB39F /* Episode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Episode.swift; sourceTree = "<group>"; };
 		9FE588952BE7C6B8000CB39F /* PlayButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayButton.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 			isa = PBXGroup;
 			children = (
 				9F7CA9CE2BE32F9C0062805E /* SwiftUI_BasicApp.swift */,
+				9F7D74C02BF4FEAD00CDE966 /* SymbolRollerView.swift */,
 				9F7CA9D02BE32F9C0062805E /* ContentView.swift */,
 				9FE588912BE7C66B000CB39F /* PlayerView.swift */,
 				9FE588932BE7C696000CB39F /* Episode.swift */,
@@ -282,6 +285,7 @@
 				9F7CA9D12BE32F9C0062805E /* ContentView.swift in Sources */,
 				9FE588942BE7C696000CB39F /* Episode.swift in Sources */,
 				9F7CAA012BE351F60062805E /* TextView.swift in Sources */,
+				9F7D74C12BF4FEAD00CDE966 /* SymbolRollerView.swift in Sources */,
 				9FE588922BE7C66B000CB39F /* PlayerView.swift in Sources */,
 				9FE588962BE7C6B8000CB39F /* PlayButton.swift in Sources */,
 				9FE588982BE7C6F4000CB39F /* PlayingStatusView.swift in Sources */,

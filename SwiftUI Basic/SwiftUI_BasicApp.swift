@@ -11,7 +11,8 @@ import SwiftUI
 struct SwiftUI_BasicApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+//            ContentView()
+            SymbolRollerView()
         }
     }
 }
