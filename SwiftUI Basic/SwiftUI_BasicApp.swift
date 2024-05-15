@@ -12,7 +12,8 @@ struct SwiftUI_BasicApp: App {
     var body: some Scene {
         WindowGroup {
 //            ContentView()
-            SymbolRollerView()
+//            SymbolRollerView()
+            StockRankView()
         }
     }
 }
