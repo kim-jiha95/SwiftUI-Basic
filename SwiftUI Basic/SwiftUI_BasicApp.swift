@@ -13,7 +13,8 @@ struct SwiftUI_BasicApp: App {
         WindowGroup {
 //            ContentView()
 //            SymbolRollerView()
-            StockRankView()
+//            StockRankView()
+            FrameworkListView()
         }
     }
 }

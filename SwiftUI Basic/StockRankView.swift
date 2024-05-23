@@ -24,8 +24,8 @@ struct StockRankView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        StockRankView()
-    }
-}
+//struct ContentView_Previews: PreviewProvider {
+//    static var previews: some View {
+//        StockRankView()
+//    }
+//}
