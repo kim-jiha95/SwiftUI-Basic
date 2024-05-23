@@ -14,7 +14,9 @@ struct SwiftUI_BasicApp: App {
 //            ContentView()
 //            SymbolRollerView()
 //            StockRankView()
-            FrameworkListView()
+//            FrameworkListView()
+//            StockRankView(stock: <#Binding<StockModel>#>)
+//                .preferredColorScheme(.dark)
         }
     }
 }
