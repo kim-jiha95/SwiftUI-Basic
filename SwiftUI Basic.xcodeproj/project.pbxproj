@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9F71AE592C030F1E0038316B /* StockRankViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F71AE582C030F1E0038316B /* StockRankViewModel.swift */; };
 		9F7CA9CF2BE32F9C0062805E /* SwiftUI_BasicApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7CA9CE2BE32F9C0062805E /* SwiftUI_BasicApp.swift */; };
 		9F7CA9D12BE32F9C0062805E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9F7CA9D02BE32F9C0062805E /* ContentView.swift */; };
 		9F7CA9D32BE32F9E0062805E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9F7CA9D22BE32F9E0062805E /* Assets.xcassets */; };
@@ -49,6 +50,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		9F71AE582C030F1E0038316B /* StockRankViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockRankViewModel.swift; sourceTree = "<group>"; };
 		9F7CA9CB2BE32F9C0062805E /* SwiftUI Basic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SwiftUI Basic.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9F7CA9CE2BE32F9C0062805E /* SwiftUI_BasicApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_BasicApp.swift; sourceTree = "<group>"; };
 		9F7CA9D02BE32F9C0062805E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -126,12 +128,12 @@
 			children = (
 				9F7CA9CE2BE32F9C0062805E /* SwiftUI_BasicApp.swift */,
 				9F8424BC2BFEFF4F00BBE6F2 /* StockDetailView.swift */,
+				9F7D74C62BF502F100CDE966 /* StockModel.swift */,
 				9F7D74C22BF502C100CDE966 /* StockRankView.swift */,
 				9F7D74C42BF502D800CDE966 /* StockRankRow.swift */,
 				9F7D74CA2BF5084A00CDE966 /* FrameworkListView.swift */,
 				9F7D74CC2BF5086500CDE966 /* FrameworkCell.swift */,
 				9F7D74CE2BF508AA00CDE966 /* FrameworkData.swift */,
-				9F7D74C62BF502F100CDE966 /* StockModel.swift */,
 				9F7D74C02BF4FEAD00CDE966 /* SymbolRollerView.swift */,
 				9F7CA9D02BE32F9C0062805E /* ContentView.swift */,
 				9FE588912BE7C66B000CB39F /* PlayerView.swift */,
@@ -143,6 +145,7 @@
 				9F7CAA042BE372BC0062805E /* ImageView.swift */,
 				9F7CA9D22BE32F9E0062805E /* Assets.xcassets */,
 				9F7CA9D42BE32F9E0062805E /* Preview Content */,
+				9F71AE582C030F1E0038316B /* StockRankViewModel.swift */,
 			);
 			path = "SwiftUI Basic";
 			sourceTree = "<group>";
@@ -311,6 +314,7 @@
 				9F7D74CF2BF508AA00CDE966 /* FrameworkData.swift in Sources */,
 				9F7CAA012BE351F60062805E /* TextView.swift in Sources */,
 				9F7D74C12BF4FEAD00CDE966 /* SymbolRollerView.swift in Sources */,
+				9F71AE592C030F1E0038316B /* StockRankViewModel.swift in Sources */,
 				9F7D74CD2BF5086500CDE966 /* FrameworkCell.swift in Sources */,
 				9FE588922BE7C66B000CB39F /* PlayerView.swift in Sources */,
 				9FE588962BE7C6B8000CB39F /* PlayButton.swift in Sources */,
